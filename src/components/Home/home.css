@@ -1,0 +1,18 @@
+#events-aside {
+    max-height: 19rem;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#events-aside::-webkit-scrollbar {
+    display: none;
+}
+
+#events-more-arrow {
+    font-size: 2rem;
+    color: rgba(98, 96, 96, 0.612);
+    position: sticky;
+    bottom: 0.2rem;
+    left: 8rem;
+}
