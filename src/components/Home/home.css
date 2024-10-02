@@ -1,8 +1,10 @@
 #events-aside {
     max-height: 19rem;
     overflow-y: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 #events-aside::-webkit-scrollbar {
@@ -13,6 +15,17 @@
     font-size: 2rem;
     color: rgba(98, 96, 96, 0.612);
     position: sticky;
-    bottom: 0.2rem;
-    left: 8rem;
+    bottom: 0.3rem;
+    left: 10rem;
+}
+
+.shadow {
+    filter: drop-shadow(5px 5px 8px #c9cbcb);
+}
+
+@media screen and (min-width: 992px) {
+    #events-more-arrow {
+        bottom: 0.2rem;
+        left: 8rem;
+    }
 }

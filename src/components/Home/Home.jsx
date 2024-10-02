@@ -82,7 +82,7 @@ function Home() {
                 </Row>
             </Col>
 
-            <Col onScroll={(e) => handleScroll(e)} lg={3} id='events-aside' className='primary-bg-color text-light pt-2'>
+            <Col onScroll={(e) => handleScroll(e)} lg={3} id='events-aside' className='primary-bg-color text-light pt-2 shadow'>
                 <div>
                     <Row className='text-center'>
                         <h4>Upcoming events</h4>
