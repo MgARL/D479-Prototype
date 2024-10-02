@@ -13,7 +13,8 @@
 
 #events-more-arrow {
     font-size: 2rem;
-    color: rgba(98, 96, 96, 0.612);
+    color: rgba(14, 14, 14, 0.418);
+    background-color: rgba(240, 248, 255, 0.312);
     position: sticky;
     bottom: 0.3rem;
     left: 10rem;

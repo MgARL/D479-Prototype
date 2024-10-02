@@ -1,0 +1,43 @@
+.card-img {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.custom-card {
+    width: 15rem;
+    display: inline-block;
+    white-space: wrap;
+}
+
+.cards-container {
+    white-space: nowrap;
+    overflow: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+
+#left-arrow {
+    font-size: 2rem;
+    color: rgba(14, 14, 14, 0.644);
+    background-color: rgba(240, 248, 255, 0.549);
+    z-index: 999;
+    position: relative;
+    top: 14.6rem;
+    left: 1%;
+}
+
+#right-arrow {
+    font-size: 2rem;
+    color: rgba(14, 14, 14, 0.644);
+    background-color: rgba(240, 248, 255, 0.549);
+    z-index: 999;
+    position: relative;
+    bottom: 12.6rem;
+    left: 98%;
+}

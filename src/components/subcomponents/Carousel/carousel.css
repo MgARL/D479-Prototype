@@ -21,4 +21,8 @@
         height: 30%;
         transform: translate(-15%, 17%);
     }
+
+    .carousel-indicators {
+        bottom: 0 !important;
+    }
 }
