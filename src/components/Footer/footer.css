@@ -3,9 +3,6 @@
     font-size: 0.55em;
 }
 
-.border-right {
-    border-right: 1px solid white;
-}
 
 #social-media a {
     font-size: 2rem;
@@ -19,8 +16,4 @@
 a {
     text-decoration: none !important;
     color: white !important;
-}
-
-a:hover{
-    color: rgba(213, 213, 213, 0.948) !important;
 }

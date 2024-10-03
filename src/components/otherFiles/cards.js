@@ -1,4 +1,7 @@
 //pixbay url https://pixabay.com/photos/food-dishes-restaurant-meal-menu-1050813/
+
+import rainForest from '../../assets/images/suspension-bridge.jpg';
+
 export const restaurants = [{
     Title: 'Restaurant 1',
     Rating: 5,
@@ -63,22 +66,111 @@ export const restaurants = [{
     ImgUrl:'https://cdn.pixabay.com/photo/2023/12/23/18/54/wheel-8466154_960_720.jpg'
   },{
     Title: 'Entertainment 2',
-    Rating: 0,
+    Rating: 3,
     Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
     ImgUrl:'https://cdn.pixabay.com/photo/2023/12/23/18/54/wheel-8466154_960_720.jpg'
   },{
     Title: 'Entertainment 3',
-    Rating: 0,
+    Rating: 5,
     Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
     ImgUrl:'https://cdn.pixabay.com/photo/2023/12/23/18/54/wheel-8466154_960_720.jpg'
   },{
     Title: 'Entertainment 4',
-    Rating: 0,
+    Rating: 1,
     Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
     ImgUrl:'https://cdn.pixabay.com/photo/2023/12/23/18/54/wheel-8466154_960_720.jpg'
   },{
     Title: 'Entertainment 5',
-    Rating: 0,
+    Rating: 4,
     Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
     ImgUrl:'https://cdn.pixabay.com/photo/2023/12/23/18/54/wheel-8466154_960_720.jpg'
-  },];
+  }];
+
+  export const sightseeing = [{
+    Title: 'Rainforest Trail 1',
+    Rating: 3,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 2',
+    Rating: 1,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 3',
+    Rating: 4,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 4',
+    Rating: 5,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 5',
+    Rating: 2,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 6',
+    Rating: 4,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 7',
+    Rating: 1,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 8',
+    Rating: 5,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 9',
+    Rating: 3,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  },{
+    Title: 'Rainforest Trail 10',
+    Rating: 2,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: rainForest
+  }];
+
+  export const lodging = [{
+    Title: 'Red Roof', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 3,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Beach Condos', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 4,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Home Rentals', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 5,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Lodging 1', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 3,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Lodging 2', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 1,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Lodging 3', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 4,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  },{
+    Title: 'Lodging 4', //https://pixabay.com/photos/manor-house-sri-lanka-hotel-pool-2359884/
+    Rating: 2,
+    Description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. Cubilia blandit at habitasse fermentum ad.',
+    ImgUrl: 'https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg'
+  }];

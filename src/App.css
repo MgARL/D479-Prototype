@@ -6,3 +6,19 @@
 .primary-bg-color{
   background-color: #00adef !important;
 }
+
+.bg-primary-darker{
+  background-color: #0096d0;
+}
+
+.shadow {
+  filter: drop-shadow(8px 8px 4px #c9cbcb);
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+a:hover{
+  color: rgb(255, 215, 94) !important;
+}
