@@ -15,7 +15,7 @@ function FAQ() {
   ));
 
   return (
-    <Container>
+    <Container className='fill-page'>
       <Row className='mt-3'>
           <Col xs={12}>
             <h2>Frequently Asked Questions</h2>

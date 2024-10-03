@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 //assets
 import './planning.css';
 import { lodging } from '../otherFiles/cards';
-
 import CardCarousel from '../subcomponents/CardCarousel/CardCarousel';
 
 function Planning() {
@@ -29,15 +28,15 @@ function Planning() {
           </Row>
         </div>
       </Container>
-      <div className='bg-primary-darker text-light'>
-        <Container id='Entertainment' className='pt-3' >
+      <div className='bg-primary-darker text-light pb-5'>
+        <Container id='transportation' className='pt-3' >
           <Row>
             <Col lg={12} className='text-center'>
-              <h3>Entertainment</h3>
+              <h3>Transportation</h3>
             </Col>
           </Row>
           <Row>
-            <Col lg={4} className='border-right mb-3'>
+            <Col lg={4} className='border-right-transport mb-3'>
               <h5 className='text-center'>Air Transportation</h5>
               <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. </p>
               <p>Airlines that travel to Taniti Island:</p>
@@ -51,7 +50,7 @@ function Planning() {
                 <a href="https://www.tahiti-aeroport.pf/"  target="_blank" rel="noopener noreferrer"> <u><em>here</em></u></a>.
               </p>
             </Col>
-            <Col lg={4} className='border-right mb-3 ps-4'>
+            <Col lg={4} className='border-right-transport mb-3 ps-4'>
               <h5 className='text-center'>Ground Transportation</h5>
               <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. </p>
 
@@ -75,7 +74,7 @@ function Planning() {
                 <li>Car Rentals: Lorem ipsum odor amet, consectetuer adipiscing.</li>
               </ul>
             </Col>
-            <Col lg={4} className='mb-3 ps-4'>
+            <Col lg={4} className='mb-3 p-4'>
               <h5 className='text-center'>Sea Transportation</h5>
               <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Sit volutpat eleifend fames porttitor tortor. </p>
 

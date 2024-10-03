@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Sitemap() {
   return (
-    <Container>
+    <Container className='fill-page'>
       <Row className='justify-content-center'>
-        <Col xs={9}>
+        <Col xs={9} className='mt-5 pt-3'>
           <img src={sitemap} alt="SiteMap of website" />
         </Col>
       </Row>

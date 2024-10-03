@@ -14,13 +14,8 @@
 .shadow {
   filter: drop-shadow(8px 8px 4px #c9cbcb);
 }
-
-.border-right {
-  border-right: 1px solid white;
-}
-
 .fill-page{
-  min-height: 61.6vh;
+  min-height: 70vh;
 }
 
 a:hover{
