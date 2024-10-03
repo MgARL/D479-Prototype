@@ -37,10 +37,12 @@ function Footer() {
     return (
         <Container fluid className='primary-bg-color'>
             <Row className='justify-content-between'>
-                <Col lg={2} className='text-center text-lg-start'>
+                <Col lg={2} className='text-center text-lg-start mt-2'>
                     <Row id="Branding">
                         <Col xs={12}>
-                            <img src={logo} alt="Taniti Island Logo" width="250" height="100" />
+                            <Link to="/">
+                                <img src={logo} alt="Taniti Island Logo" width="250" height="100" />
+                            </Link>
                         </Col>
                     </Row>
                     <Row id='copyright'>
@@ -74,22 +76,22 @@ function Footer() {
                     </Row>
                     <Row id='other-links' className='mt-5 justify-content-center'>
                         <Col xs={3} lg={2} className='border-right'>
-                            <Link to='/sitemap'  target="_blank" rel="noopener noreferrer">
+                            <Link to='/sitemap'>
                                 sitemap
                             </Link>
                         </Col>
                         <Col xs={3} lg={2} className='border-right'>
-                            <Link to='/privacy-and-more' target="_blank" rel="noopener noreferrer">
+                            <Link to='/privacy-and-more'>
                                 Accessibility Statement
                             </Link>
                         </Col>
                         <Col xs={3} lg={2} className='border-right'>
-                            <Link to='/privacy-and-more' target="_blank" rel="noopener noreferrer">
+                            <Link to='/privacy-and-more'>
                                 Terms & Conditions
                             </Link>
                         </Col>
                         <Col xs={3} lg={2}>
-                            <Link to='/privacy-and-more' target="_blank" rel="noopener noreferrer">
+                            <Link to='/privacy-and-more'>
                                 Privacy Policy
                             </Link>
                         </Col>

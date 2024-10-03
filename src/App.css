@@ -19,6 +19,10 @@
   border-right: 1px solid white;
 }
 
+.fill-page{
+  min-height: 61.6vh;
+}
+
 a:hover{
   color: rgb(255, 215, 94) !important;
 }
