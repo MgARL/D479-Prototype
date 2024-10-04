@@ -34,7 +34,7 @@ function Home() {
         event: 'Lorem ipsum odor from'
     },{
         date: 'October 31, 2024:',
-        event: 'Lorem ipsum odor from'
+        event: 'Halloween Spooky Party'
     }]
     const renderEvent = () => events.map((e, i) => {
         return (
